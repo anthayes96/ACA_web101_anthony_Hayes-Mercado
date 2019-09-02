@@ -29,6 +29,7 @@ article > h3 {
 article:hover {
     background:  gray;
 }
+/* intentionally cancelled this with important: /*/
 article:hover > h3 {
     color: beige;
 }
