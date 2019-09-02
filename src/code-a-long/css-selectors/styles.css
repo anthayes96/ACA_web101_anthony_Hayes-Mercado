@@ -1,0 +1,25 @@
+.first {
+    background-color: rgb(184, 148, 218);
+    height: 100;
+    padding: 40;
+    margin: 10;
+    width: 500;
+}
+.column, .row {
+    height: 100px;
+    width:100%;
+    border: 1px solid red
+}
+.row {
+    border: 1px solid green
+}
+.item {
+    height: 60px;
+    width: 100px;
+    margin: 100px
+    background-color orange;
+}
+.row .item{
+    display: inline-block;
+    width 100px;
+}

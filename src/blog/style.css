@@ -1,10 +1,35 @@
-.main-container {
-    height: 100;
-    width: 100;
-    border: 1px yellowgreen
+h1 {
+    margin: 5% auto;
+    color: yellow;
+    width: 60%
 }
-.blog-container {
-    width: 60;
-    height: 20px;
-    border: 1px red
+
+body {
+    background-image: url(https://i.pinimg.com/564x/94/c8/1b/94c81b2d0cd96a590df30e6216f5d369.jpg);
+}
+
+main {
+    margin: 5% auto;
+    background: gold;
+    width: 60% 
+      
+}
+
+article {
+    margin: 1% auto;
+    border: 2px solid blue;
+    width: 60%;
+    background: gold !important;
+}
+article > h3 {
+    font-size: 2em;
+    margin: 3%
+}
+
+article:hover {
+    background:  gray;
+}
+/* intentionally cancelled this with important: /*/
+article:hover > h3 {
+    color: beige;
 }
