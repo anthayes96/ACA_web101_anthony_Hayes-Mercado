@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     margin: 5% auto;
     color: yellow;
@@ -33,3 +34,40 @@ article:hover {
 article:hover > h3 {
     color: beige;
 }
+=======
+h1 {
+    margin: 5% auto;
+    color: yellow;
+    width: 60%
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/94/c8/1b/94c81b2d0cd96a590df30e6216f5d369.jpg);
+}
+
+main {
+    margin: 5% auto;
+    background: gold;
+    width: 60% 
+      
+}
+
+article {
+    margin: 1% auto;
+    border: 2px solid blue;
+    width: 60%;
+    background: gold !important;
+}
+article > h3 {
+    font-size: 2em;
+    margin: 3%
+}
+
+article:hover {
+    background:  gray;
+}
+/* intentionally cancelled this with important: /*/
+article:hover > h3 {
+    color: beige;
+}
+>>>>>>> 4d7c8eefb010e5738f7256c54a946e49c7360ce7
