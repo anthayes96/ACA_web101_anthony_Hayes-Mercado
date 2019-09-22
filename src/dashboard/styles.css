@@ -3,10 +3,17 @@
     padding: 0;
     }
     .wrapper {
-        width: 100%
+        width: 100%;
+        padding: 40px;
+    }
+    .header {
+        padding: 100px;
+    }
+    .title {
+        padding: 100px;
     }
     .img-banner {
-        display: none;
+        padding: 30px;
     }
     .img-info {
         width: 100%;
@@ -29,39 +36,57 @@
     .img-me {
         width: 100%;
     }
-    @media only screen and (min-width:360px) {
-    .img-banner {
+    body {
+        margin: 0;
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+      
+      .sidebar a {
         display: block;
-        width: 100%;
-        padding-bottom: 30px;
-    }
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
-    .img-info h2 {
-        width: 100%;
-        padding: 20px 0px 0px 30px;
-    }
-    .img-info p {
-       padding: 20px 0px 0px 30px;
-    }
-    .img-me {
-        padding-top: 30px;
-    }
-}
-@media only screen and (min-width:1000px) {
-    .wrapper {
-        width: 1000px;
-        margin: 0 auto;
-    }
-    .img-info {
-        width: 50%;
-        float: right;
-    }
-    .img-me {
-        padding-top: 0px;
-        width: 50%;
-        float: left;
-    }
-}
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+       
+      .sidebar a.active {
+        background-color: blue;
+        color: white;
+      }
+      
+      .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+      
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+      
+      @media screen and (max-width: 700px) {
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        .sidebar a {float: left;}
+        div.content {margin-left: 0;}
+      }
+      
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+          text-align: center;
+          float: none;
+        }
+      }
