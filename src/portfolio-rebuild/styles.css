@@ -1,6 +1,44 @@
-*{ 
+body {
+background-image: url(img/desert.jpg)
+    
 }
-.Header {
-    font-family: 'Signika', sans-serif;
-    padding: 20px;
+.nav {
+    background-color: yellow;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 0 0;
 }
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 12px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+.nav > li > a:hover {
+    color: black;
+}
+.logo {
+    color: pink;
+    float: left;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;    
+}
+.middle {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    color: yellow;
+
+}
+
