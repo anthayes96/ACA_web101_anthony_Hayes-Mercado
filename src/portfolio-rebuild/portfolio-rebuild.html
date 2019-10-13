@@ -16,18 +16,32 @@
         <li><a href="#">My Blog</a></li>
         <li><a href="#">Contact Me</a></li>
         <li><a href="#">Portfolio</a></li>
+        <li><a href="projects.html">Projects</a></li>
 </ul>
 <body>
     <div class="middle">
         <h1><center>Anthony Hayes-Mercado</center></h1>
         <img class="profile-image" src="img/profile_picture.jpg" alt="" width="300" height="300">
+        <h3><center>Student of Web Development.</center></h3>
     </div>
-    <div>
-    <iframe width="400" height="250" src="https://www.google.com"></iframe>
-    <video width="400" height="250" controls>
+    <div class="flexbox">
+    <div><article><iframe width="400" height="250" src="https://www.google.com"></iframe></article></div>
+    <div><article><video width="400" height="250" controls>
             <source src="https://www.youtube.com/watch?v=g1TJzu4AElQ" type=""
             <source src="https://www.youtube.com/watch?v=g1TJzu4AElQ" type="">
-          </video>
+          </video></article></div>
+          <div><form action="/action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" value="">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="">
+            <br><br>
+            Email:<br>
+            <input type="text" name="Email" value="">           <input type="submit" value="Submit">
+            <input type="Reset" value="Reset">
+          </form> </div>
+          </div>
         
 </body>
 <footer></footer>

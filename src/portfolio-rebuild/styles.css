@@ -41,4 +41,8 @@ background-image: url(img/desert.jpg)
     color: yellow;
 
 }
+.flexbox {
+    display: flex;
+    padding: 20px;
+}
 
