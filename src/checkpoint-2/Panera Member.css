@@ -1,0 +1,21 @@
+* {
+    background-color: #eee;
+}
+body {
+    padding: 20px;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: #eee;
+    align-items: center;
+    justify-content: center;
+  }
+.img-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
