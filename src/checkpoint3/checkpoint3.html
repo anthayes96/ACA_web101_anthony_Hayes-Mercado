@@ -1,0 +1,37 @@
+<script>
+    var pigcount = 0;
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    var crunch = new audio();
+    crunch.src = "crunch.mp3";
+    </script>
+</head>
+<body>
+    <a href="#" onmousedown="crunch.play()" onclick="add()"><img class="guineapig" src="img/guineapig.png" alt=""></a>
+    <br><br>
+    <center>You Fed:</center>
+    <input class="input-main" type="text" id="text" disabled style= text-align:center>
+    <script class="main-script">
+    function add() {
+        pigcount = pigcount + 1
+        document.getElementById('text').value = pigcount;
+        document.title = pigcount + "Guinea pigs";
+        
+    }
+    
+    
+    
+    </script>
+    <center>Guinea Pigs</center> 
+    <br><br>
+   
+    <button class="button-main"><a href="#"onClick="save()">Reset</a></button>
+</body>
+</html>

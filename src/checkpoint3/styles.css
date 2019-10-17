@@ -1,0 +1,53 @@
+* {
+background-color: burlywood;
+}
+body {
+    padding: 10px;
+}
+.guineapig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: auto;
+    height: 300px;
+}
+.button-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.input-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media screen and (min-width: 900px) {
+    body {
+        padding: 10px;
+    }
+    .guineapig {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: auto;
+        height: 450px;
+    }
+    .button-main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    .input-main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+}
+    
