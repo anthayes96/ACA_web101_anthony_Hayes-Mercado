@@ -1,5 +1,6 @@
 <script>
     var pigcount = 0;
+    // this starts the initial number fed to 0
 </script>
 <html lang="en">
 <head>
@@ -11,16 +12,18 @@
     <script>
     var crunch = new audio();
     crunch.src = "crunch.mp3";
+    //testing the audio file
     </script>
 </head>
 <body>
-    <a href="#" onmousedown="crunch.play()" onclick="add()"><img class="guineapig" src="img/guineapig.png" alt=""></a>
+    <a href="#" onmousedown="crunch.play() " onclick="add()"><img class="guineapig" src="img/guineapig.png" alt=""></a>
     <br><br>
     <center>You Fed:</center>
     <input class="input-main" type="text" id="text" disabled style= text-align:center>
     <script class="main-script">
     function add() {
         pigcount = pigcount + 1
+        // adds 1 additional pig fed
         document.getElementById('text').value = pigcount;
         document.title = pigcount + "Guinea pigs";
         
